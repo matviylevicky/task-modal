@@ -12,6 +12,20 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="button-close" data-modal-close>X</button>
+        <form action="#">
+          <label for="name" class="form-lable">Ім'я</label>
+          <input type="text" name="user_name" id="name" />
+          <label for="email" class="form-lable">Пошта</label>
+          <input type="email" name="user_email" id="email" />
+          <label for="phone" class="form-lable">Номер телефону</label>
+          <input type="tel" name="user_phone" id="phone" />
+          <label for="coment" class="form-lable">Коментар</label>
+          <textarea name="coment" id="coment" cols="30" rows="10"></textarea>
+          <label class="form-lable"> 
+            <input type="checkbox" name="user_chec" /> 
+              Я перевіривінформацію</label>
+          <button type="submit">Надіслати</button>
+        </form>
       </div>
     </div>
     <script src="/js/modal.js"></script>
