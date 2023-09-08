@@ -57,3 +57,24 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+/* input:disabled {
+  cursor: not-allowed;
+  border: 5px solid red;
+} */
+/* input[type="checkbox"]:checked + label {
+  color: red;
+} */
+input:required {
+  border: 3px solid purple;
+}
+textarea:valid {
+  color: green;
+}
+textarea:invalid{
+  color: red;
+} 
+input:placeholder-shown {
+  border: solid #0056b3;
+}
+
+
